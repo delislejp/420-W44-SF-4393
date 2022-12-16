@@ -98,7 +98,7 @@ docker image history hello-world
 
 
 - Cette commande démarre un nouveau conteneur utilisant nginx téléchargée depuis DockerHub.
-- La partie **publish 80:80** expose le port local 80 de la machine hôte, et redirige tout le trafic à l'application exécutable dans un comeneur sur sont port 80.
+- La partie **publish 80:80** expose le port local 80 de la machine hôte, et redirige tout le trafic à l'application exécutable dans un conteneur sur son port 80.
 - Vérifier dans le navigateur l'URL localhost, vous devriez avoir la page de nginx.
 - Regarder votre terminale, chaque tentative de connexion est affichée.
 - Faite ctrl+c pour reprendre la main de votre terminale.
